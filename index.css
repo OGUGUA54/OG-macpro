@@ -1,0 +1,29 @@
+#vr{ background-color: white
+}
+
+#mother{display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ogugua{border-right: 100px 
+    solid white; 
+    width: 200px; 
+}
+.mom{border-right: 10px 
+    solid white; 
+    width: 200px;
+
+}
+.dad{border-right: 1px 
+    solid white; 
+    width: 200px;
+    
+
+}
+
+kachi{
+    border-right: 10px 
+    solid white; 
+    width: 200px;
+}
