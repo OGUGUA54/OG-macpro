@@ -1,7 +1,7 @@
 #vr{ background-color: white
 }
 
-#mother{display: flex;
+.mother{display: flex;
     align-items: center;
     justify-content: center;
     
@@ -22,8 +22,25 @@
 
 }
 
-ckachi{
+.kachi{
     border-right: 10px 
     solid white; 
     width: 200px;
+}
+.dev{padding-top: 50px;
+    padding-right: 10px;    
+    
+    display: flex;
+    justify-content: center;
+    border-right: 10px 
+    solid white; 
+    width: 200px;
+}
+#img{border-radius:200%;
+}
+#it{display: flex;
+    align-items: center;
+    justify-items: center;
+    
+    
 }
