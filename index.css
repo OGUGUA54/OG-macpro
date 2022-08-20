@@ -4,7 +4,6 @@
 .mother{display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .ogugua{border-right: 100px 
     solid white; 
@@ -13,15 +12,11 @@
 .mom{border-right: 10px 
     solid white; 
     width: 200px;
-
 }
 .dad{border-right: 1px 
     solid white; 
     width: 200px;
-    
-
 }
-
 .kachi{
     border-right: 10px 
     solid white; 
@@ -39,8 +34,6 @@
 #img{border-radius:200%;
 }
 #it{display: flex;
-    align-items: center;
-    justify-items: center;
-    
-    
-}
+    justify-content: center;
+color: blue;
+background-color: black;}
