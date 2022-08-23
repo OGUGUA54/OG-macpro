@@ -1,6 +1,20 @@
-#vr {
-    background-color: beige
+.home-ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
 }
+
+.home-a {
+    color: blue;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    font-family: 'Heebo', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
 
 .mother {
     display: flex;
@@ -52,11 +66,6 @@
 #it {
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
-color: black;
-background-color: bisque;
-}
-=======
     color: black;
     background-color: bisque;
 }
@@ -68,6 +77,3 @@ background-color: bisque;
 #og {
     padding-right: 4px;
 }
-
-
->>>>>>> master
