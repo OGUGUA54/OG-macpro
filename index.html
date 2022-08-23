@@ -12,23 +12,26 @@
 
 <body id="vr">
     <div id="it">
-        <h1>OG-macpro inc</h1>
+        <h1 id="og">OG-macpro inc</h1>
     </div>
-    <div style="background: #ddd; display: inline-flex; height: 32px;">
-        <input id="search" type="search" placeholder="search your products here">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/750px-Search_Icon.svg.png" style="cursor: pointer; height: 100%;" onclick="alert('search: ' + document.querySelector('#search').value);">
-      </div>
-    </div>
+        <div style="background: #ddd; display: inline-flex; height: 32px;">
+            <input id="search" type="search" placeholder="search your products here">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Search_Icon.svg/750px-Search_Icon.svg.png" style="cursor: pointer; height: 100%;" onclick="alert('search: ' + document.querySelector('#search').value);">
+          </div>
+   
+   
+     <div>
     <img id="img" src="./logo2.png" width="200px">
     <h1><a href="./commerce.html">List of items</a></h1>
-    <h1><a href="./ogugua.html">Currently available items</a></h1>
-    <h1><a href="./macpro.html"> Biding items</a></h1>
+</div>
 
+    <h1><a href="./macpro.html"> Biding items</a></h1>
     <section class="mother">
         <div class="ogugua">
             <img
                 src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGCLfCuGbvIvCWjmuQxJZriIGKWtQZ4PzGfIGSS0PZ3g&s">
         </div>
+
         <div class="mom">
             <img
                 src=" data:image/jpeg;base64,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">
@@ -42,8 +45,6 @@
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_03HYjRzICeBE26KBa3KD7KXxYeUbrelE0GI92rDew&s">
         </div>
     </section>
-
-
     <section class="mother">
         <div class="dev">
             <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/C/Q/102573_1531933331.jpg"
@@ -62,8 +63,6 @@
                 width="150px">
         </div>
     </section>
-
-
     <section class="mother">
         <div class="dev">
             <img src=" https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/U/193245_1640536800.jpg"
@@ -83,16 +82,6 @@
         </div>
     </section>
 
-
-    <section class="mother">
-        <div class="dev">
-            <img
-                src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSY9fZI6M8XTxQthq-s_eF10G49qNmjJ6JAKuQ-askq8lLrHpkVmh23aLJvNdBIPesOUBtikoN_WZo&usqp=CAc">
-        </div>
-        <div class="dev">
-            <img src="./earpods.png" width="150PX">
-        </div>
-    </section>
 </body>
 
 </html>

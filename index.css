@@ -1,40 +1,73 @@
-#vr{ background-color: white
+#vr {
+    background-color: beige
 }
 
-.mother{display: flex;
+.mother {
+    display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
-.ogugua{border-right: 100px 
-    solid white; 
-    width: 200px; 
+
+.ogugua {
+    border-right: 100px solid white;
+    width: 200px;
+    background-color: white;
 }
-.mom{border-right: 10px 
-    solid white; 
+
+.mom {
+    border-right: 10px solid white;
+    width: 200px;
+    background-color: white;
+}
+
+
+.dad {
+    border-right: 1px solid white;
+    width: 200px;
+    background-color: white;
+}
+
+.kachi {
+    border-right: 10px solid white;
     width: 200px;
 }
-.dad{border-right: 1px 
-    solid white; 
-    width: 200px;
-}
-.kachi{
-    border-right: 10px 
-    solid white; 
-    width: 200px;
-}
-.dev{padding-top: 50px;
-    padding-right: 10px;    
-    
+
+.dev {
+    padding-top: 50px;
+    padding-right: 10px;
+    background-color: white;
+
     display: flex;
     justify-content: center;
-    border-right: 10px 
-    solid white; 
+    border-right: 10px solid white;
     width: 200px;
+    background-color: white;
 }
-#img{border-radius:200%;
+
+#img {
+    border-radius: 200%;
 }
-#it{display: flex;
+
+#it {
+    display: flex;
     justify-content: center;
+<<<<<<< HEAD
 color: black;
 background-color: bisque;
 }
+=======
+    color: black;
+    background-color: bisque;
+}
+
+#search {
+    width: 400px;
+}
+
+#og {
+    padding-right: 4px;
+}
+
+
+>>>>>>> master
