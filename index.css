@@ -1,6 +1,12 @@
 #body{
-background-color: #143d50; 
+background-color: slateblue;
 }
+.info{
+display: flex;
+justify-content: center;
+font-family: cursive;
+}
+
 .white{
     color: white;
 }
@@ -19,6 +25,7 @@ background-color: #143d50;
     font-family: 'Heebo', sans-serif;
     list-style: none;
     text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
     
 
