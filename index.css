@@ -1,16 +1,21 @@
 #body{
-    background-color: white
+    background-color: rgba(128, 128, 128, 0.158)
     }
     .info{
     display: flex;
     justify-content: center;
     font-family: cursive;
+    color: black;
     }
     .inf{
         display: flex;
         justify-content: space-between;
+        
     }
-    
+    .in{
+        color: aliceblue;
+        font-family: cursive;
+    }
     .white{
         color: blue
     }
@@ -89,7 +94,7 @@
 
 #search {
     width: 400px;
-    
+    font-size: 1rem;
     
 }
 
