@@ -1,15 +1,19 @@
 #body{
-background-color: slateblue;
-}
-.info{
-display: flex;
-justify-content: center;
-font-family: cursive;
-}
-
-.white{
-    color: white;
-}
+    background-color: white
+    }
+    .info{
+    display: flex;
+    justify-content: center;
+    font-family: cursive;
+    }
+    .inf{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .white{
+        color: blue
+    }
 .home-ul {
     text-decoration: none;
     list-style: none;
@@ -18,11 +22,11 @@ font-family: cursive;
 }
 
 .home-a {
-    color: white;
+    color: blue;
     font-size: 20px;
     font-weight: 500;
     padding: 0 10px;
-    font-family: 'Heebo', sans-serif;
+    
     list-style: none;
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -85,6 +89,8 @@ font-family: cursive;
 
 #search {
     width: 400px;
+    
+    
 }
 
 #og {
@@ -94,4 +100,14 @@ font-family: cursive;
     display: flex;
     justify-content: center;
     padding-bottom: 4px;
+    padding-top: 10px;
 }
+.button{
+    color: ghostwhite;
+    background-color: red;
+}
+.div{
+    display: flex;
+    justify-content: center;
+}
+ 
