@@ -6,7 +6,7 @@
     justify-content: center;
     font-family: cursive;
     color: black;
-    }
+    justify-content: space-around;}
     .inf{
         display: flex;
         justify-content: space-between;
@@ -115,4 +115,104 @@
     display: flex;
     justify-content: center;
 }
- 
+ #body{
+    background-color: #f2f2f2;
+    font-size: .8125rem;
+ }
+ #img{
+    display: flex;
+    justify-content:space-between;
+ }
+ .lt{
+    display: flex;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+}
+.li{padding-right: 30px;
+
+}
+#glasses{
+    display: flex;
+justify-content: flex-start;
+font-size: x-large;
+
+}
+#vi{
+       color: #9a0052;
+}
+.items{
+    padding-right: 150px;
+    background-color: #9a0052;
+    color: #fff;    
+}
+.heading{
+    padding-right: 60px;
+   
+     
+}
+
+#log{
+    padding-bottom: 4px;
+}
+#button{
+    box-sizing: border-box;
+    background-color: rgb(0, 128, 0);
+}
+.fccb0_2PhkY{
+    background-color: #fff;
+    border-radius: 0.125rem;
+    color: #000;
+    font-size: .8125rem;
+    font-weight: 600;
+    margin-left: 0.5rem;
+    padding: 0.1875rem 0.375rem;
+}
+#lb{
+    display: flex;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: #ed017f;
+}
+#ld{
+    display: flex;
+    font-weight: 200;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: medium;
+    background-color: white
+}
+._24849_2Ymhg{
+    font-size: x-large;
+}
+.code{
+    color: #9b9b9b;
+}
+.box {
+    height: 50px;
+    width: 50px;
+    background-color: #fff;
+    font-size: 20px;
+
+}
+#one{
+    line-height: 1.75rem;
+    white-space: nowrap;
+    width: 2.5rem;
+}
+#two{
+    line-height: 1.75rem;
+    white-space: nowrap;
+    width: 2.5rem;
+}
+#three{
+    line-height: 1.75rem;
+    white-space: nowrap;
+    width: 2.5rem;
+}
+#button2{ 
+    background-color: blueviolet;
+    padding: 20px; color: aliceblue; 
+    width: 300px;
+    font-family: cursive;
+} 
