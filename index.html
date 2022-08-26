@@ -11,10 +11,36 @@
     <link rel="stylesheet" href="./mac.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body id="body">
+
+
+    <section class="lt">
+        <div class="items">
+            <p>All categories</p>
+        </div>
+        <div class="items">
+            <p>phones</p>
+        </div>
+        <div class="items">
+            <p>smart watch</p>
+        </div>
+        <div class="items">
+            <p>electronics</p>
+        </div>
+        <div class="items">
+            <p>gaming equipment</p>
+        </div>
+        <div class="items">
+            <p id="v">other categories</p>
+        </div>
+    </section>
+
+
+    
     <section style="background-image: url('./istockphoto-1360927961-170667a.jpg');">    
     <div>
         <header class="home-header">
@@ -22,12 +48,11 @@
                 <ul class="home-ul">
                     <li class="home-li"><a class="home-a active" href="">home</a></li>
                     <li class="home-li"><a class="home-a" href="">featured products</a></li>
-                    <li><a class="home-a" href="">detail pages</a></li>
+                    <li><a class="home-a" href="./ogugua.html">detail pages</a></li>
                 </ul>
             </nav>
     </div>
 
-   
     <div> 
         <img id="img" src="./Screenshot_20220825-193355_1.jpg" width="200px">
         <marquee class="in"><h1>OG-macpro the future of<br> technology</h1></marquee>
@@ -42,11 +67,13 @@
 </section>
     <hr>
     <h1><a class="white" href="./commerce.html">List of items</a></h1>
-    <h1><a class="white" href="./macpro.html"> Biding items</a></h1>
-
-    <div class="info">
+    <h1 id="about">ABOUT US:</h1>
+    <div id="mact">
+        <h1>OG-macpro</h1>
         <h1>
-            At OG-macpro you can be assured that you<br>will get the best quality technological equipment<br>and
+    </div>
+    <div class="info">
+           <h1> At OG-macpro you can be assured that you<br>will get the best quality technological equipment<br>and
             home care devices at<br> the best affordable rates.
         </h1>
     </div>
@@ -58,24 +85,24 @@
     </section>
     
     <div id="tech">
-        <img src="./olena-sergienko-dIMJWLx1YbE-unsplash(1).jpg" width="1000"></a>
+        <img src="./olena-sergienko-dIMJWLx1YbE-unsplash(1).jpg" width="700" height="500"></a>
     </div>
     <section class="mother">
         <div class="ogugua">
-             <img src="./vr.webp" width="150px">
+             <img class="roduct-img" src="./vr.webp" width="150px">
             <h4>virtual reality glasses<br>
                 <img src="./star.svg" width="20px">
                 <img src="./star.svg" width="20px">
                 <img src="./star.svg" width="20px">
                 <img src="./star.svg" width="20px">
                 <img src="./star.svg" width="20px">
-                <a href="./ogugua.html"><button class="button">more info<img src="./arrow-forward.svg" width="20px"> </button></a>
+                <a href="./macpro.html"><button class="button">more info<img src="./arrow-forward.svg" width="20px"> </button></a>
             </h4>
            
         </div>
 
         <div class="mom">
-            <img
+            <img class= "roduct-img"
                 src=" data:image/jpeg;base64,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">
             <h4>apple Laptops<br>
 
@@ -88,7 +115,7 @@
             </h4>
         </div>
         <div class="dad">
-            <img
+            <img class= "roduct-img"
                 src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg3xhsZLjIOCgYVBXLSF74v55Ij4MA_o-JeliewQNR3g&s">
             <h4>
                 Television set
@@ -103,7 +130,7 @@
         </div>
         </div>
         <div class="kachi">
-            <img
+            <img class= "roduct-img"
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS_03HYjRzICeBE26KBa3KD7KXxYeUbrelE0GI92rDew&s">
             <h4>spyware<br>
 
@@ -119,7 +146,7 @@
     <section class="mother">
         <div class="dev">
             <p>
-                <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/C/Q/102573_1531933331.jpg"
+                <img class="roduct-img" src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/C/Q/102573_1531933331.jpg"
                     width="150PX">
                 <br> flash drive<br>
                 <img src="./star.svg" width="20px">
@@ -133,7 +160,7 @@
         </div>
         <div class="dev">
             <p>
-                <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/H/B/192572_1643764636.jpg"
+                <img class= "roduct-img" src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/H/B/192572_1643764636.jpg"
                     width="150PX">
                 <br> masssage<br>chair<br>
                 <img src="./star.svg" width="20px">
@@ -149,7 +176,7 @@
         <div class="dev">
 
             <p>
-                <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg"
+                <img class= "roduct-img" src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/I/L/200700_1649171771.jpg"
                     width="150px">
                 <br>phone<br>
                 <img src="./star.svg" width="20px">
@@ -163,7 +190,7 @@
         </div>
         <div class="dev">
             <p>
-                <img src="https://i0.wp.com/markspace.ng/wp-content/uploads/2021/12/4DRC-V4-Drone.jpg?fit=798%2C419&ssl=1"
+                <img class= "roduct-img" src="https://i0.wp.com/markspace.ng/wp-content/uploads/2021/12/4DRC-V4-Drone.jpg?fit=798%2C419&ssl=1"
                     width="150px">
                 <br>drones<br>
                 <img src="./star.svg" width="20px">
@@ -178,7 +205,7 @@
     <section class="mother">
         <div class="dev">
             <p>
-                <img src=" https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/U/193245_1640536800.jpg"
+                <img class= "roduct-img" src=" https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/O/U/193245_1640536800.jpg"
                     width="150PX">
                 <br>modem<br>
                 <img src="./star.svg" width="20px">
@@ -191,7 +218,7 @@
         </div>
         <div class="dev">
             <p>
-                <img src=" https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/L/a/Laptop-Charger-7077757_110.jpg "
+                <img class= "roduct-img" src=" https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/L/a/Laptop-Charger-7077757_110.jpg "
                     width="150PX">
                 <br>Laptop-Chargers<br>
                 <img src="./star.svg" width="20px">
@@ -204,7 +231,7 @@
         </div>
         <div class="dev">
             <p>
-                <img src="https://ae01.alicdn.com/kf/H0ff687906579488fabd82b47e79732ddj/WiWU-Laptop-Bag-17-3-16-15-6-14-2-13-Waterproof-Laptop-Bag-for-MacBook.jpg"
+                <img class= "roduct-img" src="https://ae01.alicdn.com/kf/H0ff687906579488fabd82b47e79732ddj/WiWU-Laptop-Bag-17-3-16-15-6-14-2-13-Waterproof-Laptop-Bag-for-MacBook.jpg"
                     width="150px">
                 <br>Laptop-Chargers<br>
                 <img src="./star.svg" width="20px">
@@ -217,7 +244,7 @@
         </div>
         <div class="dev">
             <p>
-                <img src=" https://sfi.com.ng/wp-content/uploads/2022/04/Soundcore-Life-Q30-Hybrid-750x750.jpeg"
+                <img  class= "roduct-img" src=" https://sfi.com.ng/wp-content/uploads/2022/04/Soundcore-Life-Q30-Hybrid-750x750.jpeg"
                     width="150px">
                 <br>headphones<br>
                 <img src="./star.svg" width="20px">
@@ -232,7 +259,7 @@
     <section class="mother">
         <div class="dev">
             <p>
-                <img src="./earpods.png" width="150px">
+                <img class= "roduct-img" src="./earpods.png" width="150px">
                 <br>earpods<br>
                 <img src="./star.svg" width="20px">
                 <img src="./star.svg" width="20px">
@@ -245,7 +272,7 @@
 
         <div class="dev">
             <p>
-                <img
+                <img class= "roduct-img"
                     src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSY9fZI6M8XTxQthq-s_eF10G49qNmjJ6JAKuQ-askq8lLrHpkVmh23aLJvNdBIPesOUBtikoN_WZo&usqp=CAc">
                 <br>phone charger<br>
                 <img src="./star.svg" width="20px">
@@ -259,7 +286,7 @@
 
         <div class="dev">
             <p>
-                <img
+                <img class= "roduct-img"
                     src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSoY-Tu20WDG9ejzOXxBRM34yOgi51n36YBp1UTof5A0ZNSBvUft5YJHqf-Wyuz77LA4KetKuSStyg&usqp=CAc">
                 <br>smart watch<br>
                 <img src="./star.svg" width="20px">
@@ -272,7 +299,7 @@
         </div>
         <div class="dev">
             <p>
-                <img src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/K/O/205534_1660648735.jpg"
+                <img class= "roduct-img" src="https://www-konga-com-res.cloudinary.com/w_auto,f_auto,fl_lossy,dpr_auto,q_auto/media/catalog/product/K/O/205534_1660648735.jpg"
                     width="150">
                 <br>power banks<br>
                 <img src="./star.svg" width="20px">
@@ -283,9 +310,18 @@
                 <button class="button">more info<img src="./arrow-forward.svg" width="20px"> </button>
             </p>
         </div>
-
     </section>
-<footer>contact us on our facebook handles</footer>                
+    <a link href="./reveal logo vid.mp4"><h1>Our slogan</h1></a>
+    <div class="foot">
+<footer><p>Designed and built by Ogugua</p>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-square-twitter"></i>
+    <i class="fa-solid fa-circle-phone"></i>
+    <i class="fa-solid fa-circle-envelope" ></i>
+    <p class="right">all rights reserved</p>
+    <p>©copyright 2022</p>
+</footer>    
+</div>          
 </body>
 
 </html>
