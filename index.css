@@ -1,6 +1,7 @@
 #body{
-    background-color: rgba(128, 128, 128, 0.158)
+        background-color:#f2f2f2  
 }
+
 .info{
 display: flex;
 justify-content: center;
@@ -10,28 +11,35 @@ justify-content: space-around;
 font-size: 18px;
 text-align: center;
 }
+
 .inf{
     display: flex;
     justify-content: space-between;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 .in{
     color: aliceblue;
     font-family: cursive;
 }
+
 .white{
     color: blue
 }
+
 .home-ul {
     text-decoration: none;
     list-style: none;
     display: flex;
     justify-content: flex-end;
 }
+
 .about-img {
     width: 500px;
     height: 380px;
 }
+
 .sect-two{
     display: flex;
     justify-content: space-between;
@@ -149,6 +157,7 @@ text-align: center;
     font-weight: 200;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: medium;
+    
 }
 .li{padding-right: 30px;
 
@@ -166,6 +175,7 @@ font-size: x-large;
     padding-right: 150px;
     background-color: #9a0052;
     color: #fff;    
+    
 }
 .heading{
     padding-right: 60px;
