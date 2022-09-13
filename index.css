@@ -151,6 +151,7 @@ text-align: center;
  #img{
     display: flex;
     justify-content:space-between;
+    
  }
  .lt{
     display: flex;
@@ -266,5 +267,5 @@ background-color: grey;
 #brandname{
     color: #644ba0;
 }
-   
+
   
