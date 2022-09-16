@@ -274,7 +274,20 @@ background-color: grey;
         min-width: 375 x 414;
         max-height: 1366 x 768;
         min-height: 375 x 414;
-}
-
-}
+         font-size:1rem; 
+        }
+        #tech{
+            max-width:1366 x 768;   
+            min-width: 375 x 414;
+            max-height: 1366 x 768;
+            min-height: 375 x 414;
+        }
+        .inf{
+            max-width:1366 x 768;   
+            min-width: 375 x 414;
+            max-height: 1366 x 768;
+            min-height: 375 x 414;
+        }
+        
+    }
   
