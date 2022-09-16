@@ -268,4 +268,10 @@ background-color: grey;
     color: #644ba0;
 }
 
+@media only screen and (min-width:768Px) {
+    #body{
+        max-width: fit-content;  
+}
+
+}
   
