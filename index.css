@@ -65,20 +65,21 @@ text-align: center;
     justify-content: center;
     background-color: white;
     padding-top: 20px;
+    flex-wrap: wrap-reverse;
 }
 
 .ogugua {
     border-right: 100px solid white;
     width: 200px;
     background-color: white;
-    width: 150px;
+    width: 130px;
 }
 
 .mom {
     border-right: 10px solid white;
     width: 200px;
     background-color: white;
-    width: 150px;
+    width: 130px;
 }
 
 
@@ -86,17 +87,17 @@ text-align: center;
     border-right: 1px solid white;
     width: 200px;
     background-color: white;
-    width: 150px;
+    width: 130px;
 }
 
 .kachi {
     border-right: 10px solid white;
     width: 200px;
-    width: 150px;
+    width: 130px;
     padding-right: 20px;
 }
 .roduct-img{
-    width: 150px;
+    width: 130px;
     height: 150px;
 } 
 .dev {
@@ -106,7 +107,7 @@ text-align: center;
     display: flex;
     justify-content: center;
     border-right: 10px solid white;
-    width: 200px;
+    width: 180px;
     background-color: white;
 }
 
@@ -268,9 +269,48 @@ background-color: grey;
     color: #644ba0;
 }
 
-@media all and (max-width: 500px){
-    #body{
-        color: yellow 
+
+@media all and (max-width: 650px){
+#remove{
+    display: none;
 }
 }
+
+
+@media all and (max-width: 700px){
+    
+        .dad {
+             display: none;
+            }
+        
+        .kachi {
+            display: none;
+        }
+       
+        #none{
+            display: none;
+        }
+
+        .items{
+            padding-right: 60px;
+        }
+
+        #nothing{
+            display: none;
+        }
+    }
+
+
+    @media (min-width: 701px) and (max-width: 1000px){
+    #nothing{
+        display: none;
+    }
+
+    .items{
+        padding-right: 100px;
+    }
+   
+    }
+
+
   
