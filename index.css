@@ -274,6 +274,9 @@ background-color: grey;
 #remove{
     display: none;
 }
+.roduct-img{
+    width: 70px;
+}
 }
 
 
