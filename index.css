@@ -65,8 +65,7 @@ text-align: center;
     justify-content: center;
     background-color: white;
     padding-top: 20px;
-    flex-wrap: wrap-reverse;
-}
+ }
 
 .ogugua {
     border-right: 100px solid white;
@@ -277,6 +276,12 @@ background-color: grey;
 .roduct-img{
     width: 70px;
 }
+.dev { 
+    padding-right: 0px;
+   
+}
+
+
 }
 
 
